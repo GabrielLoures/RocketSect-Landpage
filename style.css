@@ -1,0 +1,90 @@
+body {
+    background-color: #2F2E41;
+    width: 1100px;
+    margin: 0 auto;
+    color: white;
+    
+    min-height: 100vh;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+span {
+    color:#00BFA6;
+    font-weight: bold;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 71px;
+    margin-bottom: 101px;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    gap: 64px;
+
+    font-family: 'JetBrains Mono', monospace;
+
+    font-size: 14px;
+    line-height: 28px;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center; /* Comando usado (em conjunto ao display flex e flex-direction: column) para alinhar o texto ao centro do eixo vertical  */
+}
+
+h1 {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 36px;
+    line-height: 40px;
+    font-weight: bold;
+}
+
+#textline1, #textline2 {
+    font-family: 'Open Sans';
+    font-style: normal;
+    color: #C2C2C2;
+    font-size: 16px;
+    line-height: 28px;
+    width: 604px;
+}
+
+#line {
+    width: 568px;
+    height: 0;
+    border: 1px solid #00BFA6;
+    margin: 157px auto 27px;
+}
+
+footer {
+    display: flex;
+
+    font-family: 'JetBrains Mono';
+    font-style: normal;
+    font-size: 14px;
+    line-height: 28px;
+    align-items: center;
+    justify-content: center;
+}
+
+#padlock {
+    position:fixed;
+    bottom: 20px;
+    left: 20px;
+}
